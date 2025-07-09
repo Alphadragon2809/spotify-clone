@@ -9,42 +9,104 @@ const mockData = {
       name: "Liked Songs",
       type: "playlist",
       cover: "https://images.unsplash.com/photo-1587731556938-38755b4803a6",
-      tracks: []
+      tracks: [
+        {
+          id: 105,
+          name: "Blinding Lights",
+          artist: "The Weeknd",
+          album: "After Hours",
+          duration: "3:20",
+          cover: "https://images.unsplash.com/photo-1587731556938-38755b4803a6"
+        },
+        {
+          id: 106,
+          name: "Watermelon Sugar",
+          artist: "Harry Styles",
+          album: "Fine Line",
+          duration: "2:54",
+          cover: "https://images.unsplash.com/photo-1587731556938-38755b4803a6"
+        }
+      ]
     },
     {
       id: 2,
       name: "Daily Mix 1",
       type: "playlist",
       cover: "https://images.unsplash.com/photo-1629923759854-156b88c433aa",
-      tracks: []
+      tracks: [
+        {
+          id: 107,
+          name: "Shape of You",
+          artist: "Ed Sheeran",
+          album: "÷ (Divide)",
+          duration: "3:53",
+          cover: "https://images.unsplash.com/photo-1629923759854-156b88c433aa"
+        }
+      ]
     },
     {
       id: 3,
       name: "Discover Weekly",
       type: "playlist",
       cover: "https://images.pexels.com/photos/6827290/pexels-photo-6827290.jpeg",
-      tracks: []
+      tracks: [
+        {
+          id: 108,
+          name: "Levitating",
+          artist: "Dua Lipa",
+          album: "Future Nostalgia",
+          duration: "3:23",
+          cover: "https://images.pexels.com/photos/6827290/pexels-photo-6827290.jpeg"
+        }
+      ]
     },
     {
       id: 4,
       name: "Hip Hop Central",
       type: "playlist",
       cover: "https://images.unsplash.com/photo-1415886541506-6efc5e4b1786",
-      tracks: []
+      tracks: [
+        {
+          id: 109,
+          name: "HUMBLE.",
+          artist: "Kendrick Lamar",
+          album: "DAMN.",
+          duration: "2:57",
+          cover: "https://images.unsplash.com/photo-1415886541506-6efc5e4b1786"
+        }
+      ]
     },
     {
       id: 5,
       name: "Rock Classics",
       type: "playlist",
       cover: "https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee",
-      tracks: []
+      tracks: [
+        {
+          id: 110,
+          name: "Bohemian Rhapsody",
+          artist: "Queen",
+          album: "A Night at the Opera",
+          duration: "5:55",
+          cover: "https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee"
+        }
+      ]
     },
     {
       id: 6,
       name: "Jazz Essentials",
       type: "playlist",
       cover: "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f",
-      tracks: []
+      tracks: [
+        {
+          id: 111,
+          name: "Take Five",
+          artist: "Dave Brubeck",
+          album: "Time Out",
+          duration: "5:24",
+          cover: "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f"
+        }
+      ]
     }
   ],
   featuredPlaylists: [
@@ -69,6 +131,30 @@ const mockData = {
           album: "Midnights",
           duration: "3:20",
           cover: "https://images.pexels.com/photos/9001962/pexels-photo-9001962.jpeg"
+        },
+        {
+          id: 112,
+          name: "As It Was",
+          artist: "Harry Styles",
+          album: "Harry's House",
+          duration: "2:47",
+          cover: "https://images.unsplash.com/photo-1516981442399-a91139e20ff8"
+        },
+        {
+          id: 113,
+          name: "Heat Waves",
+          artist: "Glass Animals",
+          album: "Dreamland",
+          duration: "3:58",
+          cover: "https://images.unsplash.com/photo-1728140161994-975b3f4fd93c"
+        },
+        {
+          id: 114,
+          name: "Good 4 U",
+          artist: "Olivia Rodrigo",
+          album: "SOUR",
+          duration: "2:58",
+          cover: "https://images.pexels.com/photos/9001962/pexels-photo-9001962.jpeg"
         }
       ]
     },
@@ -85,6 +171,22 @@ const mockData = {
           album: "Scorpion",
           duration: "3:18",
           cover: "https://images.unsplash.com/photo-1415886541506-6efc5e4b1786"
+        },
+        {
+          id: 115,
+          name: "SICKO MODE",
+          artist: "Travis Scott",
+          album: "ASTROWORLD",
+          duration: "5:12",
+          cover: "https://images.unsplash.com/photo-1415886541506-6efc5e4b1786"
+        },
+        {
+          id: 116,
+          name: "Old Town Road",
+          artist: "Lil Nas X",
+          album: "7",
+          duration: "2:37",
+          cover: "https://images.unsplash.com/photo-1415886541506-6efc5e4b1786"
         }
       ]
     },
@@ -93,28 +195,96 @@ const mockData = {
       name: "Chill Hits",
       description: "Kick back to the best new and recent chill hits",
       cover: "https://images.unsplash.com/photo-1652626627248-2f659cdbd6cc",
-      tracks: []
+      tracks: [
+        {
+          id: 117,
+          name: "Peaches",
+          artist: "Justin Bieber",
+          album: "Justice",
+          duration: "3:18",
+          cover: "https://images.unsplash.com/photo-1652626627248-2f659cdbd6cc"
+        },
+        {
+          id: 118,
+          name: "Deja Vu",
+          artist: "Olivia Rodrigo",
+          album: "SOUR",
+          duration: "3:35",
+          cover: "https://images.unsplash.com/photo-1652626627248-2f659cdbd6cc"
+        }
+      ]
     },
     {
       id: 10,
       name: "Electronic Focus",
       description: "Electronic beats to help you focus",
       cover: "https://images.unsplash.com/photo-1599423424751-54e0c1187a02",
-      tracks: []
+      tracks: [
+        {
+          id: 119,
+          name: "Strobe",
+          artist: "Deadmau5",
+          album: "For Lack of a Better Name",
+          duration: "10:36",
+          cover: "https://images.unsplash.com/photo-1599423424751-54e0c1187a02"
+        },
+        {
+          id: 120,
+          name: "Midnight City",
+          artist: "M83",
+          album: "Hurry Up, We're Dreaming",
+          duration: "4:03",
+          cover: "https://images.unsplash.com/photo-1599423424751-54e0c1187a02"
+        }
+      ]
     },
     {
       id: 11,
       name: "Country Hits",
       description: "The biggest country songs",
       cover: "https://images.unsplash.com/photo-1598901704027-18db7e0e8c60",
-      tracks: []
+      tracks: [
+        {
+          id: 121,
+          name: "The Good Ones",
+          artist: "Gabby Barrett",
+          album: "Goldmine",
+          duration: "2:45",
+          cover: "https://images.unsplash.com/photo-1598901704027-18db7e0e8c60"
+        },
+        {
+          id: 122,
+          name: "Heartbreak Hill",
+          artist: "Ryan Hurd",
+          album: "Pelago",
+          duration: "3:22",
+          cover: "https://images.unsplash.com/photo-1598901704027-18db7e0e8c60"
+        }
+      ]
     },
     {
       id: 12,
       name: "Reggae Gold",
       description: "Classic and modern reggae vibes",
       cover: "https://images.unsplash.com/photo-1612265314771-2f0a4348a3ab",
-      tracks: []
+      tracks: [
+        {
+          id: 123,
+          name: "No Woman No Cry",
+          artist: "Bob Marley",
+          album: "Natty Dread",
+          duration: "7:08",
+          cover: "https://images.unsplash.com/photo-1612265314771-2f0a4348a3ab"
+        },
+        {
+          id: 124,
+          name: "Could You Be Loved",
+          artist: "Bob Marley",
+          album: "Uprising",
+          duration: "3:57",
+          cover: "https://images.unsplash.com/photo-1612265314771-2f0a4348a3ab"
+        }
+      ]
     }
   ],
   artists: [
@@ -140,6 +310,14 @@ const mockData = {
           album: "Views",
           duration: "2:54",
           cover: "https://images.unsplash.com/photo-1415886541506-6efc5e4b1786"
+        },
+        {
+          id: 125,
+          name: "In My Feelings",
+          artist: "Drake",
+          album: "Scorpion",
+          duration: "3:37",
+          cover: "https://images.unsplash.com/photo-1415886541506-6efc5e4b1786"
         }
       ]
     },
@@ -157,6 +335,47 @@ const mockData = {
           album: "Midnights",
           duration: "3:20",
           cover: "https://images.pexels.com/photos/9001962/pexels-photo-9001962.jpeg"
+        },
+        {
+          id: 126,
+          name: "Shake It Off",
+          artist: "Taylor Swift",
+          album: "1989",
+          duration: "3:39",
+          cover: "https://images.pexels.com/photos/9001962/pexels-photo-9001962.jpeg"
+        },
+        {
+          id: 127,
+          name: "Blank Space",
+          artist: "Taylor Swift",
+          album: "1989",
+          duration: "3:51",
+          cover: "https://images.pexels.com/photos/9001962/pexels-photo-9001962.jpeg"
+        }
+      ]
+    },
+    {
+      id: 203,
+      name: "The Weeknd",
+      followers: "78,543,210",
+      cover: "https://images.unsplash.com/photo-1516981442399-a91139e20ff8",
+      isFollowing: false,
+      topTracks: [
+        {
+          id: 105,
+          name: "Blinding Lights",
+          artist: "The Weeknd",
+          album: "After Hours",
+          duration: "3:20",
+          cover: "https://images.unsplash.com/photo-1516981442399-a91139e20ff8"
+        },
+        {
+          id: 128,
+          name: "Can't Feel My Face",
+          artist: "The Weeknd",
+          album: "Beauty Behind the Madness",
+          duration: "3:35",
+          cover: "https://images.unsplash.com/photo-1516981442399-a91139e20ff8"
         }
       ]
     }
@@ -176,6 +395,72 @@ const mockData = {
           album: "Midnights",
           duration: "3:20",
           cover: "https://images.pexels.com/photos/9001962/pexels-photo-9001962.jpeg"
+        },
+        {
+          id: 129,
+          name: "Lavender Haze",
+          artist: "Taylor Swift",
+          album: "Midnights",
+          duration: "3:22",
+          cover: "https://images.pexels.com/photos/9001962/pexels-photo-9001962.jpeg"
+        },
+        {
+          id: 130,
+          name: "Karma",
+          artist: "Taylor Swift",
+          album: "Midnights",
+          duration: "3:25",
+          cover: "https://images.pexels.com/photos/9001962/pexels-photo-9001962.jpeg"
+        }
+      ]
+    },
+    {
+      id: 302,
+      name: "After Hours",
+      artist: "The Weeknd",
+      year: "2020",
+      cover: "https://images.unsplash.com/photo-1516981442399-a91139e20ff8",
+      tracks: [
+        {
+          id: 105,
+          name: "Blinding Lights",
+          artist: "The Weeknd",
+          album: "After Hours",
+          duration: "3:20",
+          cover: "https://images.unsplash.com/photo-1516981442399-a91139e20ff8"
+        },
+        {
+          id: 131,
+          name: "After Hours",
+          artist: "The Weeknd",
+          album: "After Hours",
+          duration: "6:01",
+          cover: "https://images.unsplash.com/photo-1516981442399-a91139e20ff8"
+        }
+      ]
+    },
+    {
+      id: 303,
+      name: "Scorpion",
+      artist: "Drake",
+      year: "2018",
+      cover: "https://images.unsplash.com/photo-1415886541506-6efc5e4b1786",
+      tracks: [
+        {
+          id: 103,
+          name: "God's Plan",
+          artist: "Drake",
+          album: "Scorpion",
+          duration: "3:18",
+          cover: "https://images.unsplash.com/photo-1415886541506-6efc5e4b1786"
+        },
+        {
+          id: 125,
+          name: "In My Feelings",
+          artist: "Drake",
+          album: "Scorpion",
+          duration: "3:37",
+          cover: "https://images.unsplash.com/photo-1415886541506-6efc5e4b1786"
         }
       ]
     }
